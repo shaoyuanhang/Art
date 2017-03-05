@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+a{
+    color: #f8f8f8;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: 1000px;
+    background-color: #333;
+}
+.nav{
+    width:50%;
+    height: 70px;
+    margin:0 auto;
+}
+.logo{
+    line-height: 70px;
+    font-size: 28px;
+}
+.nav_inner{
+    float: right;
+}
+.nav_inner ul{
+    list-style: none;
+}
+.nav_inner ul li{
+    font-size: 20px;
+    float:left;
+    padding:0 15px;
+    cursor: pointer;
+}
+
+.nav_inner ul li:hover{
+    background-color: #666666;
+}
+.mid_inner{
+    width: 50%;
+    height: 700px;
+    margin: auto;
+    background-color: #f9f9f9;
+    /*display: none;*/
+}
+.re *:focus{
+    outline: none;
+}
+.re{
+    position: relative;
+}
+.formgroup{
+    /*border-bottom: 1px solid #DFDFDF;*/
+    padding:60px 6px 6px 250px ;/*上右下左*/
+}
+.formgroup:hover{
+    background-color: #e6e9e8;
+    transition: 0.5s;
+}
+.formgroup label{
+    ;
+    display: inline-block;
+    width: 120px;
+    float: left;
+}
+.formgroup input{
+    width: 220px;
+    height: 20px;
+    border:1px solid #AAA;
+    padding: 3px 4px;
+    border-radius: 5px;
+    transition: padding 0.25s;
+}
+.formgroup input:focus{
+    padding-right:70px;
+    border-color: #cc0000;
+}
